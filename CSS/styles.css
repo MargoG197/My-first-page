@@ -1,0 +1,123 @@
+/*@font-face {
+    font-family: 'OpenSans Regular';
+    src: url('../Fonts/OpenSans-Regular.ttf');
+}
+@font-face {
+    font-family:'OpenSans Italic';
+    src: url('../Fonts/OpenSans-Italic.ttf');
+}
+@font-face {
+    font-family: 'OpenSans Bold';
+    src: url('../Fonts/OpenSans-Bold.ttf');
+}*/
+html{
+    background-image:url(../Images/IMG_20191126_191821.jpg);
+    background-size: cover;
+}
+body{
+    font-family: 'Open Sans',Helvetica, Arial, sans-serif;
+    /*font-style: italic;*/
+    display: block;
+    background-color: rgba(221, 209, 230, 0.3);
+    padding: 50px;
+    margin:50px 30px;
+   }
+div{
+    display: flex;
+    justify-content: flex-end;  
+    }
+button {
+background-color: #AA67D5;
+border: none;
+padding: 6px;
+margin-left: 5px;
+margin-right: 5px;;
+text-align: center;
+font-size: 13px;
+font-style:italic;
+border-radius:5px;
+transition: ease-in-out .4s;
+}
+
+h1{
+    font-family: 'spectral', 'Goudy Old Style', 'Palatino', 'Times New Roman', serif;
+    display: inline-block;
+    position:static;
+    height:initial;
+    width: auto;
+    Font-size: 40px;
+    color: #45036F;
+    background-color: rgba(197, 188, 204, 0.8);
+    border-radius: 5px;  
+    padding: 5px;
+    transition: ease-in-out .4s;
+    text-align: center;
+}
+.info{
+    display:block;
+    margin: 170px;
+    width: fit-content;
+    background-color: rgba(197, 188, 204, 0.6);
+    border-radius: 5px;  
+    padding:5px;
+}
+h1:hover {
+    background: #5DCEC6;
+}
+button:hover {
+    background:#5DCEC6;
+}
+.but{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+p{
+color: #000;
+max-width: 80ch; /*ширина строки в символах*/
+line-height: 1.3;
+font-size: 16px;
+hyphens: auto;
+text-align: left;
+}
+.text{
+text-indent: 50px; /*отступ перед каждым абзатцем*/
+}
+
+
+img{
+margin:20px;
+padding:10px;
+background-color:rgba(221, 209, 230, 0.8);
+border-radius: 5px;
+}
+li:nth-child(even){
+color:#00665E;
+}
+li:last-child{
+color:#45036F;
+}
+footer{
+position:relative;
+display:block;
+bottom: 0;
+left:0;
+background-color:gray;
+width:100%;
+padding-left: 10px;
+margin:0;
+}
+#English{
+font-weight: bold;
+color: #A6A400;
+}
+.icon{
+    color: #3b5998;
+    }
+.material-icons{
+    display: inline-block;
+    size: 15px;
+    margin: 5px;
+    vertical-align: middle;
+
+}
