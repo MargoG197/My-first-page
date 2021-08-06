@@ -97,7 +97,7 @@ color:#00665E;
 li:last-child{
 color:#45036F;
 }
-footer{
+.footer{
 position:relative;
 display:block;
 bottom: 0;
@@ -119,5 +119,4 @@ color: #A6A400;
     size: 15px;
     margin: 5px;
     vertical-align: middle;
-
 }
