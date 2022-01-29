@@ -3,6 +3,10 @@
 <head>
 <meta charset="utf-8">
 <title>Моя третья страница</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;1,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="..\CSS\styles.css" type="text/CSS">
 </head>
 <body>
 <header>
@@ -17,8 +21,44 @@
         </font>
 </header>
 <main>
+<form class="form">
+    <h2 class = "formTitle" >Пройдите простой опросник</h2>
     
+    <hr>
+    <label class="label">
+        <span class="label_title">Введите Ваше имя:*</span>
+        <input class="label_input" type="text" placeholder="Имя" required>
+    </label>
 
+    <label class="label">
+        <span class="label_title">Введите Вашу фамилию:*</span>
+        <input class="label_input" type="text" placeholder="Фамилия" required>
+    </label>
+
+    <label class="label">
+        <span class="label_title">Пол:*</span>
+        <input class="label_input" type="text" placeholder="м или ж" pattern="м|ж|М|Ж" required>
+    </label>
+
+    <label class="label">
+        <span class="label_title">Введите Ваш адрес электронной почты*</span>
+        <input class="label_input" type="email" placeholder="email@domain.ru/com" required>
+        <span class="label_hint">Полностью введите адрес эл. почты</span>  
+    </label>
+    <label class="label">
+            <span class="label_title">Какой у Вас любимый цвет:</span>
+            <input class="label_input" type="text" placeholder="например: красный">      
+    </label>
+    <label class="label">
+        <span class="label_title">Введите сообщение</span>
+<input class="message_area" placeholder="Максимальное количество символов: 250">
+    </label>
+
+    <p class="form_notice">*Обязательные для заполнения поля</p>
+
+    <button class="form_submit">Отправить</button>
+
+</form>    
 </main>
 <footer></footer>
 </body>
