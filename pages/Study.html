@@ -8,8 +8,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;1,800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="..\CSS\styles.css" type="text/CSS">
 </head>
+
 <body>
 <header>
+    <a href = '#' id = 'theme_toggle'>Тёмная тема</a><br>
+
     <h1><center><font color="#1F7416">Что я изучаю</font></center></h1>
     <p align="right"><font size="7" color="#1F7416">
         <button><a href="HTML My first page.html">Главная</a></button>
@@ -62,4 +65,16 @@
 </main>
 <footer></footer>
 </body>
+<script>
+    document.querySelector("#theme_toggle").addEventListener('click', (event) =>{
+        event.preventDefault();
+        document.querySelector('form').classList.toggle('dark_theme');
+        if(document.querySelector('form').classList.contains('dark_theme')){
+            event.target.textContent = 'Светлая тема';
+        }
+        else{
+            event.target.textContent = 'Тёмная тема';
+        }
+    });
+</script>
 </html>

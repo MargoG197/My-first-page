@@ -130,13 +130,16 @@ color: #A6A400;
     margin: 0 auto;
     background-color:antiquewhite;
 }
+.dark_theme{
+    background-color: #9460A0;
+    color: #D4942C;
+}
 .formTitle{
     margin-left: 20px;
 }
 .label{
     display: flex;
     margin-top: 20px;
-   
     position: relative;
 }
 .label_title{
@@ -203,3 +206,10 @@ height: 90px;
   .label_input:invalid + .label_hint {
     opacity: 1;
   } 
+  #theme_toggle{
+      color: #d45252;
+      background-color: black;
+      font-weight: 800;
+      padding: 5px;
+      border-radius:5px;
+  }
