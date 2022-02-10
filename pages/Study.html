@@ -69,12 +69,7 @@
     document.querySelector("#theme_toggle").addEventListener('click', (event) =>{
         event.preventDefault();
         document.querySelector('form').classList.toggle('dark_theme');
-        if(document.querySelector('form').classList.contains('dark_theme')){
-            event.target.textContent = 'Светлая тема';
-        }
-        else{
-            event.target.textContent = 'Тёмная тема';
-        }
-    });
+        event.target.textContent = document.form.classList.contains('dark_theme') ? 'Светлая тема' : 'Тёмная тема'
+      });
 </script>
 </html>
