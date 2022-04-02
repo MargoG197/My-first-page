@@ -165,7 +165,7 @@ height: 90px;
     margin-left: 20px;
 }
 .form_submit{
-    font-weight: bold;
+font-weight: bold;
     margin-bottom: 70px;
     margin-left: 40px;
   width: 115px;
@@ -213,3 +213,68 @@ height: 90px;
       padding: 5px;
       border-radius:5px;
   }
+
+
+  /*Third page styles start*/
+
+  .fourth_page{
+    background-image: none;
+    background-color: #7BCF8F;
+    opacity: 0.9;
+    background-size: cover;
+}
+
+.slider{
+    position:relative;
+    margin: 20px 0;
+    
+}
+.slider_images{
+  position: relative;
+  width: 500px;
+  height: 250px;
+
+}
+/* .slider__images .image {
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 800ms ease;
+  } */
+
+  /* .slider__images .image.active {
+    opacity: 1;
+  }
+
+.slider_item{
+    display: flex;
+    justify-content: baseline;
+    position: absolute;
+    width: fit-content;
+    height: min-content;
+    align-self: center;
+    padding: 50px;
+}
+
+.slider_control_prev{
+    display: block;
+    position: absolute;
+    margin: 250px 450px 0 0; 
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+
+.slider_control_next{
+    text-decoration: none;
+    display: block;
+    position:absolute;
+    margin: 250px 0 0 450px; 
+    font-size: 30px; 
+   
+} */
